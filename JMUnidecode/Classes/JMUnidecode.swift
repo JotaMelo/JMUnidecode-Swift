@@ -41,10 +41,16 @@ public class JMUnidecode {
     private func characterListFor(section: UInt32) -> [String]? {
         
         if self.table == nil {
+            var fileURL = Bundle.main.url(forResource: "JMUnidecodeData", withExtension: "json")
+            if fileURL == nil {
+                if let bundleURL = Bundle(for: JMUnidecode.self).url(forResource: "JMUnidecode", withExtension: "bundle") {
+                    fileURL = Bundle(url: bundleURL)?.url(forResource: "JMUnidecodeData", withExtension: "json")
+                }
+            }
+            
             guard
-                let bundleURL = Bundle(for: JMUnidecode.self).url(forResource: "JMUnidecode", withExtension: "bundle"),
-                let fileURL = Bundle(url: bundleURL)?.url(forResource: "JMUnidecodeData", withExtension: "json"),
-                let fileData = try? Data(contentsOf: fileURL),
+                let dataFileURL = fileURL,
+                let fileData = try? Data(contentsOf: dataFileURL),
                 let jsonObject = try? JSONSerialization.jsonObject(with: fileData, options: [])
             else { return nil }
             

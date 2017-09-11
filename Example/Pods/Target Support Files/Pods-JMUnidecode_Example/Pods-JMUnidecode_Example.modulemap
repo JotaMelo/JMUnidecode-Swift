@@ -1,0 +1,6 @@
+framework module Pods_JMUnidecode_Example {
+  umbrella header "Pods-JMUnidecode_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0899436A157F63D53E835E75DD09F7AE /* JMUnidecode-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B219E703993B2A74ECBE31D8141B320 /* JMUnidecode-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10E84C48DB20A67E24E16224BEEB8733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		183AC9CAA797C0AD257B90494A5F810A /* JMUnidecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC2EB49155A62F09FC99C82A3663AE3 /* JMUnidecode.swift */; };
+		2D07A01C7727578D80A53EF7B55ED6E2 /* JMUnidecode-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1188B78503657328A08C75D9365BF1 /* JMUnidecode-Swift-dummy.m */; };
+		408423EB48200AFF6600409F8A537F08 /* JMUnidecode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9AD684F45DDF280F516981413EDF2134 /* JMUnidecode.bundle */; };
+		4D5873034A33A5AF36A41C9AA1A2E18A /* Pods-JMUnidecode_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D457AB525A33D686CA3D3DCA96BF192C /* Pods-JMUnidecode_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EE064ADDB007B865299AF982B460CA0 /* JMUnidecodeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 70E76A14BD44A0A51C36C38EF903FA90 /* JMUnidecodeData.json */; };
+		8F5F5F5326C8A6F3BA03ACE737761F53 /* Pods-JMUnidecode_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4A926455D42259A8DA418A7F809BA3 /* Pods-JMUnidecode_Example-dummy.m */; };
+		94C6C10F30E79246E88B346192B3C578 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		99BC99702271C25382416B12866491D1 /* Pods-JMUnidecode_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA1BC3C421ECFBCC4B9F8B8EF439801 /* Pods-JMUnidecode_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A46B9094777A38EDAA8246F605205C75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EEF19761FAECB25EF8F74D55DBAF4750 /* Pods-JMUnidecode_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9631CF4C264A89B24DC4424EFF25193A /* Pods-JMUnidecode_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E8CD2D9F28A699B46C88818A65798CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12432AACF2C0A1D213E80EB8A1DE0911;
+			remoteInfo = "JMUnidecode-Swift-JMUnidecode";
+		};
+		ADC6C43158DF94EC024CF3B33E22CB65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE17812D29AFDF2FE3A4BD2913DD7856;
+			remoteInfo = "JMUnidecode-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BC2C27ED8698247F1052FA1C8309AD /* Pods_JMUnidecode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JMUnidecode_Example.framework; path = "Pods-JMUnidecode_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F7F3330286665517FC421E1912260E /* Pods-JMUnidecode_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JMUnidecode_Example.modulemap"; sourceTree = "<group>"; };
+		1502225EE7E37B4DD345449C3241AAE9 /* Pods-JMUnidecode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMUnidecode_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1EDC4FE9BBE6F14BA991FF2BE6AEC1EC /* Pods-JMUnidecode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMUnidecode_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4030FEF8E588B47EDE91613FE48CC32A /* Pods-JMUnidecode_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JMUnidecode_Tests.modulemap"; sourceTree = "<group>"; };
+		4845F538F99E4C7C9B4A6B0FF7E5E129 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E08A82B34B387884DFFEAE2BC63FBE5 /* Pods-JMUnidecode_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMUnidecode_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4ED4032AEA35E4ABB55C58645C42B899 /* Pods-JMUnidecode_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMUnidecode_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6450623D14C6879F8DD606390B715921 /* Pods-JMUnidecode_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMUnidecode_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FC2EB49155A62F09FC99C82A3663AE3 /* JMUnidecode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JMUnidecode.swift; sourceTree = "<group>"; };
+		70E76A14BD44A0A51C36C38EF903FA90 /* JMUnidecodeData.json */ = {isa = PBXFileReference; includeInIndex = 1; path = JMUnidecodeData.json; sourceTree = "<group>"; };
+		76FB7C92C37658CCBFCC4BD9F474B5FB /* Pods_JMUnidecode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JMUnidecode_Tests.framework; path = "Pods-JMUnidecode_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FB5975C756AE614B51EF71683E4496 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E670A09484E8F6978EDCCF88BC53E5 /* JMUnidecode_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JMUnidecode_Swift.framework; path = "JMUnidecode-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		864713CB3390525673A8E03A9E2694C2 /* JMUnidecode-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "JMUnidecode-Swift.modulemap"; sourceTree = "<group>"; };
+		8E5D7D6C300E9C14E7189BA67E078C16 /* Pods-JMUnidecode_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMUnidecode_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8FA1BC3C421ECFBCC4B9F8B8EF439801 /* Pods-JMUnidecode_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMUnidecode_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9631CF4C264A89B24DC4424EFF25193A /* Pods-JMUnidecode_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JMUnidecode_Tests-dummy.m"; sourceTree = "<group>"; };
+		9AD684F45DDF280F516981413EDF2134 /* JMUnidecode.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JMUnidecode.bundle; path = JMUnidecode.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B219E703993B2A74ECBE31D8141B320 /* JMUnidecode-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMUnidecode-Swift-umbrella.h"; sourceTree = "<group>"; };
+		9FFFC5C22D7372EF8A1FE7D83DF9E9C7 /* Pods-JMUnidecode_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMUnidecode_Example-resources.sh"; sourceTree = "<group>"; };
+		A721EFF201E1278D57E851FF7896DA1D /* JMUnidecode-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMUnidecode-Swift-prefix.pch"; sourceTree = "<group>"; };
+		A976E2F31069BE30ABD941F149305D81 /* Pods-JMUnidecode_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMUnidecode_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C152E807E0A9BF15DFBBCAA7032138B6 /* Pods-JMUnidecode_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMUnidecode_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D3CEA118172760DDDBEF5EEB8DC6D119 /* ResourceBundle-JMUnidecode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JMUnidecode-Info.plist"; sourceTree = "<group>"; };
+		D457AB525A33D686CA3D3DCA96BF192C /* Pods-JMUnidecode_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMUnidecode_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DEB9A83436665789F38B941A6F016D97 /* Pods-JMUnidecode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMUnidecode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2F22FC7D1E6AD9924C811C6D43E44A1 /* Pods-JMUnidecode_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMUnidecode_Tests-resources.sh"; sourceTree = "<group>"; };
+		EA1188B78503657328A08C75D9365BF1 /* JMUnidecode-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMUnidecode-Swift-dummy.m"; sourceTree = "<group>"; };
+		ECAADB180F58D10D2C0A36998D3A377D /* Pods-JMUnidecode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMUnidecode_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EF4A926455D42259A8DA418A7F809BA3 /* Pods-JMUnidecode_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JMUnidecode_Example-dummy.m"; sourceTree = "<group>"; };
+		F2C2DA5F331EEE4505F8ADCB6501FC30 /* JMUnidecode-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JMUnidecode-Swift.xcconfig"; sourceTree = "<group>"; };
+		FE2A291FB4A692F6DE106366FA485A40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		350E2C90277A38D00448531CB7C08F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46B9094777A38EDAA8246F605205C75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B774E1FB2DEC3861F8E3C88600B2D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E84C48DB20A67E24E16224BEEB8733 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5308C65616513C069084B59D8D96392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6A93CECC8A12A3909E2892BDFAEACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C6C10F30E79246E88B346192B3C578 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0821C6655A2522DE9D32258F1DF133EF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				70E76A14BD44A0A51C36C38EF903FA90 /* JMUnidecodeData.json */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2030FA2458CB1DB96EA95E88E2C99201 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BE59ED2A4FF413CBFC9E866F7C8E2E9 /* JMUnidecode-Swift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		301C8C722DEA4D4540D3C22377ED3793 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4845F538F99E4C7C9B4A6B0FF7E5E129 /* Info.plist */,
+				864713CB3390525673A8E03A9E2694C2 /* JMUnidecode-Swift.modulemap */,
+				F2C2DA5F331EEE4505F8ADCB6501FC30 /* JMUnidecode-Swift.xcconfig */,
+				EA1188B78503657328A08C75D9365BF1 /* JMUnidecode-Swift-dummy.m */,
+				A721EFF201E1278D57E851FF7896DA1D /* JMUnidecode-Swift-prefix.pch */,
+				9B219E703993B2A74ECBE31D8141B320 /* JMUnidecode-Swift-umbrella.h */,
+				D3CEA118172760DDDBEF5EEB8DC6D119 /* ResourceBundle-JMUnidecode-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JMUnidecode-Swift";
+			sourceTree = "<group>";
+		};
+		3109105A8FE44375930797E4FBD26810 /* Pods-JMUnidecode_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FE2A291FB4A692F6DE106366FA485A40 /* Info.plist */,
+				4030FEF8E588B47EDE91613FE48CC32A /* Pods-JMUnidecode_Tests.modulemap */,
+				6450623D14C6879F8DD606390B715921 /* Pods-JMUnidecode_Tests-acknowledgements.markdown */,
+				A976E2F31069BE30ABD941F149305D81 /* Pods-JMUnidecode_Tests-acknowledgements.plist */,
+				9631CF4C264A89B24DC4424EFF25193A /* Pods-JMUnidecode_Tests-dummy.m */,
+				C152E807E0A9BF15DFBBCAA7032138B6 /* Pods-JMUnidecode_Tests-frameworks.sh */,
+				E2F22FC7D1E6AD9924C811C6D43E44A1 /* Pods-JMUnidecode_Tests-resources.sh */,
+				D457AB525A33D686CA3D3DCA96BF192C /* Pods-JMUnidecode_Tests-umbrella.h */,
+				DEB9A83436665789F38B941A6F016D97 /* Pods-JMUnidecode_Tests.debug.xcconfig */,
+				1EDC4FE9BBE6F14BA991FF2BE6AEC1EC /* Pods-JMUnidecode_Tests.release.xcconfig */,
+			);
+			name = "Pods-JMUnidecode_Tests";
+			path = "Target Support Files/Pods-JMUnidecode_Tests";
+			sourceTree = "<group>";
+		};
+		6BE59ED2A4FF413CBFC9E866F7C8E2E9 /* JMUnidecode-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D3455DF54290132F1FF97CDD9AB821B4 /* JMUnidecode */,
+				8DC20BAF446C18B5869E37BD4D16308D /* Resources */,
+				301C8C722DEA4D4540D3C22377ED3793 /* Support Files */,
+			);
+			name = "JMUnidecode-Swift";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2030FA2458CB1DB96EA95E88E2C99201 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				88CF9E6E9017FA5CEF2A66741189FEF5 /* Products */,
+				99DBE9DF50AA30C7D78142A00F2C27A2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8131CA6A6B0700AF9976046FE3778E20 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6FC2EB49155A62F09FC99C82A3663AE3 /* JMUnidecode.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		88CF9E6E9017FA5CEF2A66741189FEF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AD684F45DDF280F516981413EDF2134 /* JMUnidecode.bundle */,
+				84E670A09484E8F6978EDCCF88BC53E5 /* JMUnidecode_Swift.framework */,
+				02BC2C27ED8698247F1052FA1C8309AD /* Pods_JMUnidecode_Example.framework */,
+				76FB7C92C37658CCBFCC4BD9F474B5FB /* Pods_JMUnidecode_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C58A3F7E542FA0E521D7057F76709C3 /* JMUnidecode */ = {
+			isa = PBXGroup;
+			children = (
+				0821C6655A2522DE9D32258F1DF133EF /* Assets */,
+			);
+			name = JMUnidecode;
+			path = JMUnidecode;
+			sourceTree = "<group>";
+		};
+		8DC20BAF446C18B5869E37BD4D16308D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C58A3F7E542FA0E521D7057F76709C3 /* JMUnidecode */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		99DBE9DF50AA30C7D78142A00F2C27A2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C70D6862D69FD44813D94F1892D5E79E /* Pods-JMUnidecode_Example */,
+				3109105A8FE44375930797E4FBD26810 /* Pods-JMUnidecode_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C70D6862D69FD44813D94F1892D5E79E /* Pods-JMUnidecode_Example */ = {
+			isa = PBXGroup;
+			children = (
+				78FB5975C756AE614B51EF71683E4496 /* Info.plist */,
+				03F7F3330286665517FC421E1912260E /* Pods-JMUnidecode_Example.modulemap */,
+				8E5D7D6C300E9C14E7189BA67E078C16 /* Pods-JMUnidecode_Example-acknowledgements.markdown */,
+				4ED4032AEA35E4ABB55C58645C42B899 /* Pods-JMUnidecode_Example-acknowledgements.plist */,
+				EF4A926455D42259A8DA418A7F809BA3 /* Pods-JMUnidecode_Example-dummy.m */,
+				4E08A82B34B387884DFFEAE2BC63FBE5 /* Pods-JMUnidecode_Example-frameworks.sh */,
+				9FFFC5C22D7372EF8A1FE7D83DF9E9C7 /* Pods-JMUnidecode_Example-resources.sh */,
+				8FA1BC3C421ECFBCC4B9F8B8EF439801 /* Pods-JMUnidecode_Example-umbrella.h */,
+				ECAADB180F58D10D2C0A36998D3A377D /* Pods-JMUnidecode_Example.debug.xcconfig */,
+				1502225EE7E37B4DD345449C3241AAE9 /* Pods-JMUnidecode_Example.release.xcconfig */,
+			);
+			name = "Pods-JMUnidecode_Example";
+			path = "Target Support Files/Pods-JMUnidecode_Example";
+			sourceTree = "<group>";
+		};
+		D3455DF54290132F1FF97CDD9AB821B4 /* JMUnidecode */ = {
+			isa = PBXGroup;
+			children = (
+				8131CA6A6B0700AF9976046FE3778E20 /* Classes */,
+			);
+			name = JMUnidecode;
+			path = JMUnidecode;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3636D189BF80F78B137E3CF0A56A0656 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99BC99702271C25382416B12866491D1 /* Pods-JMUnidecode_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C6CEDD36E6119C38891AF843F8BB15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0899436A157F63D53E835E75DD09F7AE /* JMUnidecode-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E416387DCD31F4DC2389B51A472F3464 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5873034A33A5AF36A41C9AA1A2E18A /* Pods-JMUnidecode_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12432AACF2C0A1D213E80EB8A1DE0911 /* JMUnidecode-Swift-JMUnidecode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB2742BE013B47472ADB424D63A68E4 /* Build configuration list for PBXNativeTarget "JMUnidecode-Swift-JMUnidecode" */;
+			buildPhases = (
+				15213538D269EA864E065341870124B9 /* Sources */,
+				E5308C65616513C069084B59D8D96392 /* Frameworks */,
+				45C3855369F3E0C710C216DD47A4AD83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JMUnidecode-Swift-JMUnidecode";
+			productName = "JMUnidecode-Swift-JMUnidecode";
+			productReference = 9AD684F45DDF280F516981413EDF2134 /* JMUnidecode.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C2EDFCEAA0776294FA495BC79DC1ABB /* Pods-JMUnidecode_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C8A558368E9AF2CB9836E6794CAA6A /* Build configuration list for PBXNativeTarget "Pods-JMUnidecode_Example" */;
+			buildPhases = (
+				CF8BAD52707DC933F65FBC1879AEF812 /* Sources */,
+				A4B774E1FB2DEC3861F8E3C88600B2D0 /* Frameworks */,
+				3636D189BF80F78B137E3CF0A56A0656 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53B65A9E8D4C69C95709FE8E4A76A789 /* PBXTargetDependency */,
+			);
+			name = "Pods-JMUnidecode_Example";
+			productName = "Pods-JMUnidecode_Example";
+			productReference = 02BC2C27ED8698247F1052FA1C8309AD /* Pods_JMUnidecode_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE17812D29AFDF2FE3A4BD2913DD7856 /* JMUnidecode-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 135AC4BAA134BF6C7CC345A1B78AA558 /* Build configuration list for PBXNativeTarget "JMUnidecode-Swift" */;
+			buildPhases = (
+				9C89A892850CCBFE02F28D4B7A35B1CD /* Sources */,
+				ED6A93CECC8A12A3909E2892BDFAEACB /* Frameworks */,
+				6F9169B4F39752BC879140DBA6EE5AF3 /* Resources */,
+				48C6CEDD36E6119C38891AF843F8BB15 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25526073A1073D652B1307ADE9D2B47F /* PBXTargetDependency */,
+			);
+			name = "JMUnidecode-Swift";
+			productName = "JMUnidecode-Swift";
+			productReference = 84E670A09484E8F6978EDCCF88BC53E5 /* JMUnidecode_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F78E4A807156AD1156245648F9C49CFC /* Pods-JMUnidecode_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9776C78B4407F8D0F676E65F7DF0BDF4 /* Build configuration list for PBXNativeTarget "Pods-JMUnidecode_Tests" */;
+			buildPhases = (
+				19007A169A7D6D6E91251103945A9C28 /* Sources */,
+				350E2C90277A38D00448531CB7C08F8D /* Frameworks */,
+				E416387DCD31F4DC2389B51A472F3464 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JMUnidecode_Tests";
+			productName = "Pods-JMUnidecode_Tests";
+			productReference = 76FB7C92C37658CCBFCC4BD9F474B5FB /* Pods_JMUnidecode_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 88CF9E6E9017FA5CEF2A66741189FEF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE17812D29AFDF2FE3A4BD2913DD7856 /* JMUnidecode-Swift */,
+				12432AACF2C0A1D213E80EB8A1DE0911 /* JMUnidecode-Swift-JMUnidecode */,
+				2C2EDFCEAA0776294FA495BC79DC1ABB /* Pods-JMUnidecode_Example */,
+				F78E4A807156AD1156245648F9C49CFC /* Pods-JMUnidecode_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45C3855369F3E0C710C216DD47A4AD83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE064ADDB007B865299AF982B460CA0 /* JMUnidecodeData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9169B4F39752BC879140DBA6EE5AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408423EB48200AFF6600409F8A537F08 /* JMUnidecode.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15213538D269EA864E065341870124B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19007A169A7D6D6E91251103945A9C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF19761FAECB25EF8F74D55DBAF4750 /* Pods-JMUnidecode_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C89A892850CCBFE02F28D4B7A35B1CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D07A01C7727578D80A53EF7B55ED6E2 /* JMUnidecode-Swift-dummy.m in Sources */,
+				183AC9CAA797C0AD257B90494A5F810A /* JMUnidecode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8BAD52707DC933F65FBC1879AEF812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5F5F5326C8A6F3BA03ACE737761F53 /* Pods-JMUnidecode_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25526073A1073D652B1307ADE9D2B47F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JMUnidecode-Swift-JMUnidecode";
+			target = 12432AACF2C0A1D213E80EB8A1DE0911 /* JMUnidecode-Swift-JMUnidecode */;
+			targetProxy = 6E8CD2D9F28A699B46C88818A65798CD /* PBXContainerItemProxy */;
+		};
+		53B65A9E8D4C69C95709FE8E4A76A789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JMUnidecode-Swift";
+			target = BE17812D29AFDF2FE3A4BD2913DD7856 /* JMUnidecode-Swift */;
+			targetProxy = ADC6C43158DF94EC024CF3B33E22CB65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1481AF4FE36D1C77336BAC38F61540E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C2DA5F331EEE4505F8ADCB6501FC30 /* JMUnidecode-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JMUnidecode-Swift/JMUnidecode-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JMUnidecode-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JMUnidecode-Swift/JMUnidecode-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JMUnidecode_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		41647FA79FB19F510108563DB75F55CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB9A83436665789F38B941A6F016D97 /* Pods-JMUnidecode_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JMUnidecode_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JMUnidecode_Tests/Pods-JMUnidecode_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JMUnidecode_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C0C8EB5E55833839FF9A559D93AAED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDC4FE9BBE6F14BA991FF2BE6AEC1EC /* Pods-JMUnidecode_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JMUnidecode_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JMUnidecode_Tests/Pods-JMUnidecode_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JMUnidecode_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CB397D71656E7CA1AF4307C5BFB310B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECAADB180F58D10D2C0A36998D3A377D /* Pods-JMUnidecode_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JMUnidecode_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JMUnidecode_Example/Pods-JMUnidecode_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JMUnidecode_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		925EF2D74258C01303A833A824CE8B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C2DA5F331EEE4505F8ADCB6501FC30 /* JMUnidecode-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JMUnidecode-Swift/JMUnidecode-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JMUnidecode-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JMUnidecode-Swift/JMUnidecode-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JMUnidecode_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC0E30B92425A029E2A045807A4623DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1502225EE7E37B4DD345449C3241AAE9 /* Pods-JMUnidecode_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JMUnidecode_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JMUnidecode_Example/Pods-JMUnidecode_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JMUnidecode_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B97F8926765E75E9C38487DDE3C807CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C2DA5F331EEE4505F8ADCB6501FC30 /* JMUnidecode-Swift.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JMUnidecode-Swift";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/JMUnidecode-Swift/ResourceBundle-JMUnidecode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JMUnidecode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CDDE38462EFD9FBBB61F13A469B597FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C2DA5F331EEE4505F8ADCB6501FC30 /* JMUnidecode-Swift.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JMUnidecode-Swift";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/JMUnidecode-Swift/ResourceBundle-JMUnidecode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JMUnidecode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		135AC4BAA134BF6C7CC345A1B78AA558 /* Build configuration list for PBXNativeTarget "JMUnidecode-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925EF2D74258C01303A833A824CE8B16 /* Debug */,
+				1481AF4FE36D1C77336BAC38F61540E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C8A558368E9AF2CB9836E6794CAA6A /* Build configuration list for PBXNativeTarget "Pods-JMUnidecode_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB397D71656E7CA1AF4307C5BFB310B /* Debug */,
+				AC0E30B92425A029E2A045807A4623DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9776C78B4407F8D0F676E65F7DF0BDF4 /* Build configuration list for PBXNativeTarget "Pods-JMUnidecode_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41647FA79FB19F510108563DB75F55CB /* Debug */,
+				5C0C8EB5E55833839FF9A559D93AAED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB2742BE013B47472ADB424D63A68E4 /* Build configuration list for PBXNativeTarget "JMUnidecode-Swift-JMUnidecode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDE38462EFD9FBBB61F13A469B597FB /* Debug */,
+				B97F8926765E75E9C38487DDE3C807CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

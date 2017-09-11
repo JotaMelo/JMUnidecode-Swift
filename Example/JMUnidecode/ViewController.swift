@@ -7,18 +7,18 @@
 //
 
 import UIKit
+import JMUnidecode_Swift
 
 class ViewController: UIViewController {
+    @IBOutlet var resultLabel: UILabel!
+}
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+extension ViewController: UITextFieldDelegate {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.resultLabel.text = JMUnidecode.unidecode(textField.text ?? "")
+        textField.resignFirstResponder()
+        return true
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 

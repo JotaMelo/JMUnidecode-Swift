@@ -1,0 +1,16 @@
+PODS:
+  - JMUnidecode-Swift (1.0.0)
+
+DEPENDENCIES:
+  - JMUnidecode-Swift (from `../`)
+
+EXTERNAL SOURCES:
+  JMUnidecode-Swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JMUnidecode-Swift: 833b18a053abf553cf7ec7ad2fa02a918150e963
+
+PODFILE CHECKSUM: 4bb3af8be089586d9df80b59ef1a3057f6ef6f9f
+
+COCOAPODS: 1.2.1.rc.1

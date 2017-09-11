@@ -31,7 +31,7 @@
 		2603A952D2453A1DF500CAC5 /* Pods_JMUnidecode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMUnidecode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3115C320911F81507BB4CBE6 /* Pods-JMUnidecode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMUnidecode_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JMUnidecode_Example/Pods-JMUnidecode_Example.release.xcconfig"; sourceTree = "<group>"; };
 		37BFAD91DC86DEC1CFE488D3 /* Pods-JMUnidecode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMUnidecode_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JMUnidecode_Tests/Pods-JMUnidecode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3D8BC1F61E27B4130D8BDA80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3D8BC1F61E27B4130D8BDA80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4CC4B277D40E612D9E7C0C7E /* Pods_JMUnidecode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMUnidecode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFA7B2EC9C798297DFB26E3 /* Pods-JMUnidecode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMUnidecode_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JMUnidecode_Example/Pods-JMUnidecode_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JMUnidecode_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMUnidecode_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +44,9 @@
 		607FACE51AFB9204008FA782 /* JMUnidecode_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMUnidecode_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8135F6443CD015B3B12DED50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8135F6443CD015B3B12DED50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A84549A24506B3D003A268D8 /* Pods-JMUnidecode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMUnidecode_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JMUnidecode_Tests/Pods-JMUnidecode_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FE35BECD8358EABD4DB605E8 /* JMUnidecode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JMUnidecode.podspec; path = ../JMUnidecode.podspec; sourceTree = "<group>"; };
+		FE35BECD8358EABD4DB605E8 /* JMUnidecode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JMUnidecode.podspec; path = ../JMUnidecode.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6D995M6B5M;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6D995M6B5M;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -496,6 +498,7 @@
 			baseConfigurationReference = 5CFA7B2EC9C798297DFB26E3 /* Pods-JMUnidecode_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6D995M6B5M;
 				INFOPLIST_FILE = JMUnidecode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +513,7 @@
 			baseConfigurationReference = 3115C320911F81507BB4CBE6 /* Pods-JMUnidecode_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6D995M6B5M;
 				INFOPLIST_FILE = JMUnidecode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37BFAD91DC86DEC1CFE488D3 /* Pods-JMUnidecode_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 6D995M6B5M;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -536,6 +541,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMUnidecode_Example.app/JMUnidecode_Example";
 			};
 			name = Debug;
 		};
@@ -543,6 +549,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A84549A24506B3D003A268D8 /* Pods-JMUnidecode_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 6D995M6B5M;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -552,6 +559,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMUnidecode_Example.app/JMUnidecode_Example";
 			};
 			name = Release;
 		};

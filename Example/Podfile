@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JMUnidecode_Example' do
+  pod 'JMUnidecode', :path => '../'
+
+  target 'JMUnidecode_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
